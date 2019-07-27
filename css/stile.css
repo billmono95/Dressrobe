@@ -1,0 +1,1001 @@
+
+html {
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    height: 100%;
+      
+}
+
+header {
+	margin: 0;
+    top: 0px;
+    height: 24%;
+    width: 100%;
+     
+}
+
+
+
+
+#titolo{
+    position: fixed;
+	z-index: 999;
+	background:black;
+	height: 140px;
+	top: 0px;
+	width: 100%;
+   
+}
+
+#titolo h1{
+	
+	letter-spacing: 9px;
+	margin-left: 80px;
+	margin-top: 60px;
+	text-decoration-line: none;
+	font-family: Roboto;
+	font-size: 30px;
+	color: white;
+	float: left;
+	
+    text-transform: uppercase;
+}
+
+#accesso {
+	
+	z-index: 999;
+	position: fixed;
+	width: 230px;
+	margin-top: 5.5%;
+	margin-left: 81%;
+	height: 27px;
+    background-color: black;
+}
+
+
+#accesso a{
+	
+	
+	
+	text-transform: uppercase;
+	font-size: 10px;
+	font-family: Arial;
+	text-decoration-line: none;
+	color: white;
+	margin-left: 6%;
+	margin-top: 4%;
+	height: auto;
+    background-color: black;
+}
+
+
+
+
+
+#menu {
+	position: fixed;
+	top: 150px;
+	margin: 0px;
+	width: 260px;
+	background-color: black;
+	font-family: none;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+
+#menu ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:65px; 
+}
+
+
+
+#menu ul li a {
+	display:block;
+    color: white;
+	padding: 15px;
+    text-decoration-line: none;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+#menu ul li a:hover {
+	background:opacity;
+    color:white;
+    font-size: 12px;
+
+   }
+
+
+
+
+
+
+
+#content {
+	
+	margin-left: 25%;
+	top: 45%;
+    margin-bottom: 400px;
+	height: 80%;	
+	width: 70%;
+	background-color: white;
+	
+}
+
+
+#home2{
+	
+	width: 100%;
+	overflow: hidden;
+	height: 100%;
+	background-attachment: fixed;
+	background-image: url('../immagini/sfondo1.jpg');
+	background-size: cover;
+	border:#2e2e33 solid 0.5px;
+}
+
+
+
+
+footer {
+    
+
+	text-align: center;
+	height: 150px;
+	background-color: rgba(100, 100, 100, 0.4);
+	margin-top: 65%;
+	
+}
+
+footer p {
+	line-height: 45px;
+	margin-right: 25px;
+	margin-top: 45px;
+	color: white;
+	float: right;
+}
+
+footer a {
+	line-height: 45px;
+	margin: 0px;
+	color: white;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+
+
+.login{
+
+width: 100%;
+height: 130%;
+border:#2e2e33 solid 0.5px;
+text-align: center;
+
+
+}
+
+.login h1{
+
+text-transform: uppercase;
+letter-spacing: 5px;
+font-weight: lighter;
+margin-top: 10%;
+}
+
+
+.login input{
+
+margin-top: 40px;
+
+}
+
+.login p{
+
+text-transform: uppercase;
+letter-spacing: 5px;
+
+}
+
+
+.menulogin {
+	
+	top: 150px;
+	margin: 0px;
+	width: 100%;
+	background-color: black;
+	font-family: none;
+    font-style: normal;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+
+.menulogin ul li{
+	list-style: none;
+	display:inline-block;
+	 margin-left: 16.5%;
+}
+
+
+
+.menulogin ul li a {
+	display:inline-block;
+    color: white;
+	padding: 15px;
+    text-decoration-line: none;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    margin-left: 85%;
+}
+
+
+
+
+#tastiaccedi{
+
+
+	margin-top: 25px;
+}
+
+#registrati{
+
+
+width: 50%;
+
+
+}
+
+
+#tastiregistrati{
+	
+	margin-left: 22px;
+	margin-bottom: 5px;
+	
+
+
+}
+
+
+.tasti{
+     
+   color: #fff;
+   background-color: black;
+   width: 150px;
+   height: 50px;
+ 
+   font-family: Arial;
+   font-weight: bold;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+
+.tasti:hover{
+     
+   cursor: pointer;
+   background-color: white;
+   color: black;
+   border:#2e2e33 solid 0.5px;
+}
+
+
+
+
+#descrizione {
+
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	padding-top: 50px;
+	color: #2e2e33; 
+	border:#2e2e33 solid 0.5px;
+}
+
+
+
+
+
+
+ #descrizione h1 {
+
+ 	margin-top:  20px;
+    margin-left: 40%;
+	font-size: 22px;
+    font-family: Lucida Sans Unicode ;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+ #descrizione p{
+
+ 	
+    margin-left: 5%;
+
+	font-size: 14px;
+    font-family: Lucida Sans Unicode ;
+    font-weight: lighter;
+    letter-spacing: 1px;
+
+}
+
+
+#home2{
+
+height: 100%;
+width: 100%;
+
+
+}
+
+#home2 .tasti{
+
+background-color: black;
+margin-left: 42%;
+margin-top:   10%;
+}
+
+
+#home2 .tasti:hover{
+
+background-color: white;
+color: black;
+margin-left: 42%;
+margin-top:   10%;
+}
+
+#home2 a{
+
+text-decoration-line: none;
+color: black;
+cursor: pointer;
+
+}
+
+
+#home2 p{
+
+
+font-size: 25px;
+text-transform: uppercase;
+text-align: center;
+text-decoration-line: none;
+padding-top: 150px;
+cursor: pointer;
+}
+
+.logoimm{
+
+width: 180px;
+height: 180px;
+border:#2e2e33 solid 1.5px;
+
+}
+
+
+.error{
+
+color: red;
+}
+
+#buttonaccount p{
+
+
+font-size: 20px;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 6px;
+padding-top: 150px;
+
+}
+
+
+#buttonaccount .tasti{
+	
+margin-left: 42%;
+margin-top:   10%;
+}
+
+
+#nomeprodotto{
+
+
+width: 100%;
+height: 100%;
+background-color: blue;
+
+}
+
+#classprodotto{
+   
+	height: 100%;
+	width: 100%;
+}
+
+#classprodotto select{
+
+background-color: transparent;
+color: white;
+width: 50px;
+height: 40px;
+font-size: 17px;
+text-decoration: none;
+border:#2e2e33 solid 0.5px;	
+margin-left: 85%;
+margin-top: 2%;
+}
+
+#classprodotto select option{
+
+
+color: black;
+
+font-size: 17px;
+text-decoration: none;
+border:#2e2e33 solid 0.5px;	
+
+}
+
+
+.limmagine{
+
+width: 340px;
+height: 340px;
+border:#2e2e33 solid 2.5px;
+}
+
+#preview_acquisti
+{
+	width: 300px;
+	height: 300px;
+	border:#2e2e33 solid 0.5px;
+	background-color: white;
+	visibility: hidden;
+	z-index: 999;
+	margin-left: -300px;
+}
+
+#preview_acquisti p
+{
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+#mostra{
+
+	margin-left: 70px;
+	margin-top: 130px;
+}
+
+.immaginecarrello{
+
+width: 100px;
+	height: 100px;
+border:#2e2e33 solid 0.5px;
+margin-left: 10px;
+margin-top: 25px;
+}
+
+
+
+.immaginecarrellino{
+
+width: 50px;
+	height: 40px;
+
+margin-left: 5px;
+
+}
+
+#vedere{
+height:  auto;
+width: 100%;
+background-image: url('../immagini/sfondo10.jpg');
+border:#2e2e33 solid 0.5px;
+background-size: cover;
+color: white;
+
+
+
+}
+
+
+ #vedere h1{
+
+text-align: center;
+
+    text-transform: uppercase;
+	color: white;
+   letter-spacing: 5px;
+   margin-top: 8px;
+}
+
+
+#vedereleft{
+
+
+width: 97%;
+height: 20%;
+border:#2e2e33 solid 0.5px;
+margin-left: 1.5%;
+margin-top: 20px;
+color: white;
+
+}
+
+
+
+
+#imgcorretto{
+
+height: 120px;
+
+width: 14%;
+
+
+}
+
+#nomecorretto{
+
+    
+    text-transform: uppercase;
+    letter-spacing: 4px;
+	width: 70%;
+	height: 70px;
+
+ 
+ margin-left: 17%;
+ margin-top: -80px;
+ padding-top: 30px;
+
+}
+
+
+#nomecorretto input{
+
+   background-color: black;
+   margin-left: 80%;
+}
+
+#nomecorretto input:hover{
+
+   background-color: white;
+   margin-left: 80%;
+}
+
+
+
+.formrimuovi{
+	position: absolute;
+	display: inline;
+	margin-left: 55%;
+	margin-top: -45px;
+
+}
+
+#piccolodiv{
+width: 100%;
+height: 55px;
+margin:0px;
+border:#878787 solid 1px;
+font-size: 3px;
+display: inline-block;
+background-color: white;
+
+}
+
+
+#piccolodiv a{
+
+color: black;
+background-color: white;
+
+}
+
+#categoria{
+
+height: 150%;
+width: 100%;
+background-image: url('../immagini/sfondo1.jpg');
+border:#2e2e33 solid 0.5px;
+background-size: cover;
+color: white;
+margin-top: 0;
+padding-top: 20px;
+
+}
+
+
+#categoria h1{
+
+text-align: center;
+    font-style: "Arial";
+    text-transform: uppercase;
+	color: black;
+   letter-spacing: 8px;
+   margin-top: 8px;
+   font-size: 27px;
+
+}
+
+#categorieleft{
+	position: relative;
+width: 40%;
+opacity: 0.8;
+margin-left: 30px;
+display: inline-block;
+
+}
+
+
+#categorieleft:hover{
+	position: relative;
+width: 40%;
+opacity: 25;
+font-weight: bold;
+margin-left: 30px;
+display: inline-block;
+
+}
+
+
+
+
+.nomecategoria{
+    
+    text-transform: uppercase;
+	color: black;
+	text-decoration-line: none;
+	letter-spacing: 4px;
+	font-style: "Arial";
+}
+
+#nomeprodotto{
+
+
+height: 150%;
+width: 100%;
+background-image: url('../immagini/sfondo1.jpg');
+border:#2e2e33 solid 0.5px;
+background-size: cover;
+color: black;
+margin-top: 0;
+padding-top: 20px;
+
+
+}
+
+
+ #nomeprodotto h1{
+
+text-align: center;
+
+    text-transform: uppercase;
+	color: black;
+   letter-spacing: 5px;
+   margin-top: 8px;
+}
+
+.prodotto{
+
+	position: relative;
+
+margin-left: 30px;
+margin-top: 7px;
+
+}
+
+
+.prodotto a{
+
+ text-transform: uppercase;
+	color: black;
+   letter-spacing: 4px;
+
+
+}
+
+
+
+#acquistoprodotti{
+
+
+height: 160%;
+width: 100%;
+background-image: url('../immagini/sfondo1.jpg');
+border:#2e2e33 solid 0.5px;
+background-size: cover;
+color: black;
+margin-top: 0;
+padding-top: 20px;
+
+
+}
+
+#acquistoprodotti  img{
+
+	position: relative;
+border:#2e2e33 solid 0.5px;
+margin-left: 32.5%;
+margin-top: 30px;
+}
+
+
+#acquista{
+	position: absolute;
+	display: inline;
+	
+	margin-left: -12%;
+  margin-top: 10%;
+}
+
+
+#tornaindietro{
+	position: absolute;
+	display: inline;
+	margin-left: -20%;
+   margin-top: -10%;
+}
+
+
+#scelta{
+
+width: 100%;
+height: 30%;
+
+
+
+}
+
+ .NomeDescrizione{
+
+
+  width: 80%;
+ text-transform: uppercase;
+	color: white;
+   letter-spacing: 4px;
+  text-align: center;
+  margin-left: 6.5%;
+	
+   display: inline-block;
+   padding: 20px;
+   border:#2e2e33 solid 0.5px;
+   margin-top: 20px;
+}
+
+
+#check input{
+ color: white;
+ border:#2e2e33 solid 1.5px;
+ background-color: transparent;
+ width: 33px;
+ height: 33px;
+ text-align: center;
+ margin-left: 7%;
+ margin-top: 10px;
+}
+
+#check input:hover{
+
+border:#ffff solid 1.5px;
+cursor: pointer;
+}
+
+#nonconnesso{
+
+height: 100%;
+width: 100%;
+background-image: url('../immagini/empty.jpg');
+border:#2e2e33 solid 0.5px;
+background-size: cover;
+color: black;
+
+}
+
+#nonconnesso button{
+
+margin-left: 42%;
+margin-top: 55px;
+
+}
+
+
+
+
+
+
+#totaleordine{
+width: 100%;
+height: 140px;
+
+ color: black;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    
+
+}
+
+
+.ordinescritta{
+
+margin-left: 70%;
+
+
+
+
+}
+
+.ordinerimuovi{
+
+margin-top: -4.5%;
+margin-left: 5%;
+
+
+}
+
+
+#datiacquisto{
+
+width: 100%;
+height: 130%;
+border:#2e2e33 solid 0.5px;
+text-align: center;
+
+}
+
+#datiacquisto label input{
+    
+  margin-top: 35px;
+    width: 280px; 
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	color: #b8b8c4;
+	border-bottom: 2px solid #c1c2ca;
+	font-size: 17px;
+	background-color: white;
+	padding-bottom: 14px;
+	
+  
+
+}
+
+
+.modificaprodotto{
+
+width: 100%;
+height: 130%;
+border:#2e2e33 solid 0.5px;
+text-align: center;
+
+
+}
+
+.modificaprodotto h1{
+
+text-transform: uppercase;
+letter-spacing: 5px;
+font-weight: lighter;
+
+}
+
+
+.modificaprodotto input{
+
+margin-top: 20px;
+
+}
+
+.modificaprodotto p{
+
+text-transform: uppercase;
+letter-spacing: 5px;
+
+}
+
+
+.menuadmin {
+	
+	top: 150px;
+	margin: 0px;
+	width: 100%;
+	background-color: black;
+	font-family: none;
+    font-style: normal;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+
+.menuadmin ul li{
+	list-style: none;
+	display:inline-block;
+	
+}
+
+
+
+.menuadmin ul li a {
+	display:inline-block;
+    color: white;
+	padding: 15px;
+    text-decoration-line: none;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    margin-left: 35px;
+}
+
+
+.ordinitotali{
+
+width: 100%;
+height: 100%;
+border:#2e2e33 solid 0.5px;
+background-image: url('../immagini/virgi2.png');
+
+
+}
+
+.ordinitotali h1{
+
+text-transform: uppercase;
+letter-spacing: 6px;
+font-weight: lighter;
+text-align: center;
+color: white;
+}
+
+
+#ordineeffettuato{
+
+width: 80%;
+height: 10%;
+color: white;
+margin-left: 5%;
+border:#ffff solid 0.5px;
+margin-top: 5%;
+margin-bottom: 2%;
+}
+
+
+#dataordine{
+
+margin-left: 5%;
+width: 35%;
+height: auto;
+margin-bottom: 5%;
+
+
+}
+
+#dataordine a{
+
+margin-left: 4px;
+text-transform: uppercase;
+letter-spacing: 4px;
+font-size: 13px;
+
+}
